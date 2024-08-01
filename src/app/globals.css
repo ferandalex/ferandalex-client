@@ -1,0 +1,173 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-video {
+  background: url(/assets/hero.mp4);
+  height: 100vh;
+  width: 100%;
+}
+
+.ibg-img {
+  background-image: url("/assets/Navbar-bg-blur.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gradident {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.65) 99.99%,
+    rgba(255, 255, 255, 0.65) 100%
+  );
+}
+
+.mobile-menu-bg {
+  background-image: url("/assets/mobile-menu-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 100%;
+}
+.mobile-menu-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the color and opacity as needed */
+  /* z-index: 1; Ensure the overlay is behind the content */
+}
+
+/* Light weight */
+@font-face {
+  font-family: "ClashDisplay-Light";
+  src: url("/fonts/ClashDisplay-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular weight */
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("/fonts/ClashDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Regular weight */
+@font-face {
+  font-family: "ClashDisplay-Semibold";
+  src: url("/fonts/ClashDisplay-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("/fonts/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gradient-text {
+  text-align: center;
+  background: linear-gradient(90deg, #c21500 0%, #ffc500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Standard syntax */
+  color: transparent; /* For non-WebKit browsers */
+}
+
+@media screen and (min-width: 1024px) {
+  .vision-large {
+    display: flex !important;
+  }
+
+  .vision-small {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .vision-large {
+    display: none;
+  }
+  .vision-small {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  .vision-large {
+    display: none;
+  }
+}
+
+/* Base styles for the dots */
+.custom-slider .slick-dots {
+  left: -110%; /* Align dots to the left */
+  top: -10%; /* Center vertically */
+  transform: translateY(-0%); /* Center vertically */
+  rotate: 90deg;
+}
+
+.custom-slider .slick-dots li {
+  margin: 0; /* Adjust margin if needed */
+}
+
+.custom-slider .slick-dots li button:before {
+  font-size: 12px; /* Adjust dot size if needed */
+  color: #d9d9d9; /* Adjust dot color if needed */
+}
+
+.custom-slider .slick-dots li.slick-active button:before {
+  color: white;
+}
+
+/* Media query for small devices */
+@media (max-width: 1024px) {
+  .custom-slider .slick-dots {
+    left: -108.3%; /* Align dots to the left */
+    top: -10%; /* Center vertically */
+    transform: translateY(-0%); /* Center vertically */
+    rotate: 90deg;
+  }
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+  .custom-slider .slick-dots {
+    left: 0; /* Align dots below the image */
+    top: auto; /* Reset top position */
+    bottom: -7%; /* Place dots below the image */
+    transform: translateY(0); /* Reset transform */
+    rotate: 0deg; /* Reset rotation */
+    display: flex; /* Display dots in a row */
+    justify-content: center; /* Center dots horizontally */
+    width: 100%; /* Make dots container full width */
+  }
+
+  .custom-slider .slick-dots li {
+    display: inline-block; /* Display dots inline */
+    margin: 0 5px; /* Add horizontal margin between dots */
+  }
+  .custom-slider .slick-dots li button:before {
+    font-size: 10px; /* Adjust dot size if needed */
+    color: #d9d9d9; /* Adjust dot color if needed */
+  }
+}
