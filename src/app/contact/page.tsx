@@ -42,13 +42,13 @@ const Contact = () => {
                 Completeaza formular
               </Link>
               <Link
-                href="/contact/contactinfo"
+                href="mailto:ferandalexsrl@outlook.com"
                 className="font-clashdisplay-regular w-full sm:px-6 sm:py-3 px-[10px] py-[4px] text-white text-center lg:text-[30px] md:text-[22px] sm:text-[18px] text-[15px] border-2 border-[#FFFFFF1A] rounded-[70px] bg-[#FFFFFF52] hover:bg-[#ffffff62] transition duration-300 ease-in-out backdrop-blur-sm"
               >
                 Scrie-ne pe e-mail
               </Link>
               <Link
-                href="/contact/contactinfo"
+                href="tel:+40720774212"
                 className="font-clashdisplay-regular w-full sm:px-6 sm:py-3 px-[10px] py-[4px] text-white text-center lg:text-[30px] md:text-[22px] sm:text-[18px] text-[15px] border-2 border-[#FFFFFF1A] rounded-[70px] bg-[#FFFFFF52] hover:bg-[#ffffff62] transition duration-300 ease-in-out backdrop-blur-sm"
               >
                 Suna-ne

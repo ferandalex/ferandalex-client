@@ -31,7 +31,7 @@ const GoToTopButton = () => {
         isVisible ? "block" : "hidden"
       }`}
     >
-      <button onClick={handleGoToTop} className="md:w-[68.38px] w-[50px]">
+      <button onClick={handleGoToTop} className="md:w-[50px] w-[50px]">
         <img
           src="/assets/up-arrow.svg"
           alt="Go to top"

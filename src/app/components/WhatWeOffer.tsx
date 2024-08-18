@@ -93,9 +93,9 @@ const WhatWeOffer = () => {
                 CONSTRUCTII
               </h2>
               <p
-                className="sm:text-[35px] text-[27px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 Transformam viziunea in realitate. Oferim servicii complete de
                 constructii si amenajari, de la primele idei pana la predarea
@@ -115,14 +115,14 @@ const WhatWeOffer = () => {
               <h2
                 className="sm:text-[40px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 PROIECTARE
               </h2>
               <p
-                className="sm:text-[35px] text-[27px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 Oferim solutii complete de proiectare si design, personalizate
                 in functie de nevoile si dorintele tale.
@@ -141,14 +141,14 @@ const WhatWeOffer = () => {
               <h2
                 className="sm:text-[40px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 CONSULTANTA
               </h2>
               <p
-                className="sm:text-[35px] text-[27px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 Te consiliem la fiecare pas, pentru a asigura succesul
                 proiectului tau.

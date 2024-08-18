@@ -36,7 +36,7 @@ const CustomerOpinion = () => {
           “Printre putinele firme serioase ramase pe piata”
         </h3>
         <p className="flex items-end justify-end md:ms-auto ms-0 md:me-0 me-auto italic md:text-[30px] text-[18px] md:leading-[40.42px] leading-[27px] tracking-[9%]">
-          Anton Andrei
+          Paul Andrei
         </p>
       </span>
       {/* <div className="flex w-full justify-end ms-auto">

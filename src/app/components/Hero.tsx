@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           <Image
             src="/assets/des.svg"
             alt="title"
-            width={1000}
+            width={800}
             className=""
             height={10}
             data-aos="fade-up"
@@ -96,14 +96,14 @@ const Hero: React.FC = () => {
                   alt="text"
                   width={400}
                   height={10}
-                  className="lg:w-[400px] w-[200px]"
+                  className="lg:w-[300px] w-[200px]"
                 />
                 <Image
                   src="/assets/line.svg"
                   alt="text"
                   width={100}
                   height={10}
-                  className="absolute -bottom-14 lg:-bottom-20 lg:w-[400px] w-[200px]"
+                  className="absolute -bottom-12 lg:-bottom-20 lg:w-[400px] w-[200px]"
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
             data-aos="fade-up"
           >
             <Link href="/contact">
-              <h1 className="text-[20px] md:text-[30px] lg:text-[35px] leading-[49px] font-clashdisplay-regular flex items-center gap-1.5">
+              <h1 className="text-[25px] md:text-[30px] lg:text-[35px] leading-[49px] font-clashdisplay-regular flex items-center gap-1.5">
                 Hai sa discutam proiectul tau
                 <IoIosArrowRoundForward className="text-3xl lg:text-5xl" />
               </h1>

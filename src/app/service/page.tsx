@@ -113,7 +113,7 @@ const Page = () => {
         <img
           src="/assets/SERVICII.svg"
           alt=""
-          className="absolute top-[68%] sm:top-[67%] lg:top-2/3 lg:ml-[5%] md:ml-[5%] ml-[23%] sm:w-[150px] w-24 h-auto lg:w-auto uppercase"
+          className="absolute top-[68%] sm:top-[67%] lg:top-2/3 lg:ml-[5%] md:ml-[5%] ml-[10%] sm:w-[150px] w-24 h-auto lg:w-auto uppercase"
           data-aos="fade-up"
         />
       </section>

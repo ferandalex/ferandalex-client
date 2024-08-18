@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const SolutionsForAnyProject: React.FC = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800, // animation duration in milliseconds
+      duration: 700, // animation duration in milliseconds
       once: true, // whether animation should happen only once - while scrolling down
     });
   }, []);

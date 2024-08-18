@@ -34,6 +34,7 @@ const Navbar = () => {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      document.body.style.overflow = "visible";
     };
   }, []);
 
@@ -46,7 +47,7 @@ const Navbar = () => {
     <header className="w-full h-auto max-w-[1920px] mx-auto">
       {/* Navbar */}
       <nav
-        className={`fixed max-w-[1920px] mx-auto top-0 left-0 right-0 z-10 bg-[#FFFFFF2B] border border-[#FFFFFF1A] text-white px-4 lg:px-[40px] 2xl:px-[90px] md:h-[100px] h-[70px] ${
+        className={`fixed max-w-[1920px] mx-auto top-0 left-0 right-0 z-10 md:bg-[#FFFFFF2B] md:border md:border-[#FFFFFF1A] text-white px-4 lg:px-[40px] 2xl:px-[90px] md:h-[100px] h-[70px] ${
           isScrolled ? "backdrop-blur-sm" : ""
         }`}
         data-aos="fade-down"

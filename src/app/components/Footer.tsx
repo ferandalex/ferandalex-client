@@ -40,9 +40,9 @@ const Footer = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <h3 className="md:text-[#071A34] xs:text-[20px] text-[18px] md:text-[25px] font-[600]">
-              Company
-            </h3>
+          <h3 className="text-[#071A34] xs:text-[#071A34] xs:text-[20px] text-[18px] md:text-[25px] font-[600]">
+            Company
+          </h3>
             <ul className="font-[500] md:text-[20px] xs:text-[16px] text-[14px] text-[#090914] flex flex-col xs:gap-[16px] gap-[10px]">
               <li>
                 <a href="#" className="text-[#090914] font-[500]">
@@ -122,9 +122,9 @@ const Footer = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <a href="#" aria-label="X" className="my-auto">
+          {/*<a href="#" aria-label="X" className="my-auto">
             <BsTwitterX size={28} color="#000" />
-          </a>
+          </a>*/}
           <a href="#" aria-label="Instagram">
             <FaInstagram size={30} color="#000" />
           </a>
@@ -150,12 +150,12 @@ const Footer = () => {
             />
           </div>
           <p className="text-[#090914] lg:text-[20px] text-[16px] md:mx-0 mx-auto xs:text-left text-center xs:px-0 px-1 text-[16px] pb-6 md:pt-6 font-[400] leading-[22px] font-clashdisplay-regular">
-            © 2024 FERANDALEX SRL, All rights reserved.
+            © 2024 FERANDALEX SRL, Toate drepturile rezervate.
           </p>
           <div className="lg:flex hidden gap-[24px]">
-            <a href="#" aria-label="X" className="my-auto">
+            {/*<a href="#" aria-label="X" className="my-auto">
               <BsTwitterX size={28} color="#000" />
-            </a>
+            </a>*/}
             <a href="#" aria-label="Instagram">
               <FaInstagram size={30} color="#000" />
             </a>
