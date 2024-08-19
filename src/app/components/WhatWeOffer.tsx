@@ -62,7 +62,7 @@ const WhatWeOffer = () => {
   return (
     <div className="bg-black px-4 lg:px-[40px] 2xl:px-[60px] text-white py-[100px] overflow-hidden">
       <h1
-        className="text-[#F26A45] font-clashdisplay-bold text-[50px] leading-[86px]"
+        className="text-[#F26A45] font-clashdisplay-bold text-[35px] leading-[86px]"
         data-aos="fade-up"
         data-aos-delay="500"
       >
@@ -86,14 +86,14 @@ const WhatWeOffer = () => {
             />
             <div className="text-content mt-4">
               <h2
-                className="sm:text-[40px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
+                className="sm:text-[30px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 CONSTRUCTII
               </h2>
               <p
-                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[25px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -113,14 +113,14 @@ const WhatWeOffer = () => {
             />
             <div className="text-content mt-4">
               <h2
-                className="sm:text-[40px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
+                className="sm:text-[30px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
                 PROIECTARE
               </h2>
               <p
-                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[25px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -139,14 +139,14 @@ const WhatWeOffer = () => {
             />
             <div className="text-content mt-4">
               <h2
-                className="sm:text-[40px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
+                className="sm:text-[30px] text-[31px] leading-[67px] tracking-[0.09em] font-clashdisplay-semibold"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
                 CONSULTANTA
               </h2>
               <p
-                className="sm:text-[35px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
+                className="sm:text-[25px] text-[20px] sm:leading-[50px] leading-[40px] tracking-[0.09em] font-clashdisplay-regular"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >

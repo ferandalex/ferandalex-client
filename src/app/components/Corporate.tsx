@@ -15,7 +15,7 @@ const Corporate: React.FC = () => {
     <div className="bg-[#F26A45]">
       <div className="overflow-hidden">
         <h2
-          className="font-clashdisplay-bold md:pt-[160px] pt-[100px] sm:pb-[80px] pb-[70px] lg:ps-[120px] sm:ps-[25px] ps-[20px] lg:pe-0 md:px-[81px] sm:px-[50px] px-[40px] text-white md:text-[64px] sm:text-[43px] text-[33px] font-[700] md:leading-[86.24px] leading-[50px] tracking-[0.09em]"
+          className="font-clashdisplay-bold md:pt-[160px] pt-[100px] sm:pb-[80px] pb-[70px] lg:ps-[120px] sm:ps-[25px] ps-[20px] lg:pe-0 md:px-[81px] sm:px-[50px] px-[40px] text-white md:text-[64px] sm:text-[43px] text-[35px] font-[700] md:leading-[86.24px] leading-[50px] tracking-[0.09em]"
           data-aos="fade-up"
           data-aos-delay="500"
         >

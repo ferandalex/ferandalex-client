@@ -36,7 +36,7 @@ const SolutionsForAnyProject: React.FC = () => {
           data-aos-delay="600"
         />
         <div data-aos="fade-up" data-aos-delay="500">
-          <p className="font-clashdisplay-regular text-[24px] md:text-[28px] tracking-[0.07em] mt-10">
+          <p className="font-clashdisplay-regular text-[22px] md:text-[28px] tracking-[0.07em] mt-10">
             <span className="font-clashdisplay-bold text-[30px] md:text-[40px]">
               Ferandalex
             </span>{" "}
@@ -45,7 +45,7 @@ const SolutionsForAnyProject: React.FC = () => {
             Abordarea noastra holistica acopera toate etapele, de la concept si
             proiectare, la executie si finalizare.
           </p>
-          <p className="font-clashdisplay-regular text-[24px] md:text-[28px] tracking-[0.07em] mt-10">
+          <p className="font-clashdisplay-regular text-[22px] md:text-[28px] tracking-[0.07em] mt-10">
             Echipa noastra de specialisti cu experienta vasta in domeniu
             utilizeaza materiale de calitate superioara si tehnologii moderne
             pentru a asigura rezultatele dorite. Suntem dedicati sa transformam
