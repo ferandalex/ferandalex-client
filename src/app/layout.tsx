@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: "Ferandalex",
   description: "Viziunea ta devine realitate cu Ferandalex!",
 };
+export const viewport = {
+  themeColor: '#F26A45',
+}
+
 
 export default function RootLayout({
   children,

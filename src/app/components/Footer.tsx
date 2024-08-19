@@ -30,9 +30,9 @@ const Footer = () => {
               src="/assets/footer-logo.svg"
               alt="Ferandalex logo"
             />
-            <p className="text-[#0B2131] md:text-[20px] xs:text-[16px] text-[12px] font-[400] leading-[32px] tracking-[2%] font-clashdisplay-regular md:pe-0 sm:pe-8 pe-0">
-              The purpose of a FAQ is generally to provide information on
-              frequent questions or concerns.
+            <p className="text-[#0B2131] md:text-[20px] xs:text-[16px] text-[12px] font-[400] leading-[30px] tracking-[2%] font-clashdisplay-regular md:pe-0 sm:pe-8 pe-0">
+              Sinergie la fiecare proiect. Ne straduim sa va oferim rezultatele dorite,
+              deoarece obiectivul nostru este colaborarea pe termen lung.
             </p>
           </div>
           <div
@@ -45,23 +45,13 @@ const Footer = () => {
           </h3>
             <ul className="font-[500] md:text-[20px] xs:text-[16px] text-[14px] text-[#090914] flex flex-col xs:gap-[16px] gap-[10px]">
               <li>
-                <a href="#" className="text-[#090914] font-[500]">
-                  About
+                <a href="/about" className="text-[#090914] font-[500]">
+                  Despre noi
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground">
-                  Works
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground">
-                  Career
+                <a href="/service" className="text-muted-foreground">
+                  Servicii
                 </a>
               </li>
             </ul>

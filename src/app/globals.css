@@ -172,8 +172,6 @@
   }
 }
 
-svg {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
 }
-

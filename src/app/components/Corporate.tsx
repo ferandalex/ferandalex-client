@@ -22,7 +22,7 @@ const Corporate: React.FC = () => {
           CORPORATE
         </h2>
         <div
-          className="flex lg:flex-row flex-col items-end justify-between mb-auto h-full md:text-[30px] sm:text-[24px] text-[18px] text-[#EFE8E9] font-[400] md:leading-[40.42px] sm:leading-[35px] leading-[30px] tracking-[9%] font-clashdisplay-regular"
+          className="flex lg:flex-row flex-col items-end justify-between mb-auto h-full md:text-[30px] sm:text-[24px] text-[22px] text-[#EFE8E9] font-[400] md:leading-[40.42px] sm:leading-[35px] leading-[30px] tracking-[9%] font-clashdisplay-regular"
           data-aos="fade-up"
           data-aos-delay="800"
         >
