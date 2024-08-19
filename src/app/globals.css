@@ -164,10 +164,16 @@
 
   .custom-slider .slick-dots li {
     display: inline-block; /* Display dots inline */
-    margin: 0 5px; /* Add horizontal margin between dots */
+    /* margin: 0 0px; Add horizontal margin between dots */
   }
   .custom-slider .slick-dots li button:before {
     font-size: 10px; /* Adjust dot size if needed */
     color: #d9d9d9; /* Adjust dot color if needed */
   }
 }
+
+svg {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+}
+

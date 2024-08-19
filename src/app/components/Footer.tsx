@@ -28,7 +28,7 @@ const Footer = () => {
             <img
               className="md:w-[230px] sm:w-[200px]"
               src="/assets/footer-logo.svg"
-              alt="logo"
+              alt="Ferandalex logo"
             />
             <p className="text-[#0B2131] md:text-[20px] xs:text-[16px] text-[12px] font-[400] leading-[32px] tracking-[2%] font-clashdisplay-regular md:pe-0 sm:pe-8 pe-0">
               The purpose of a FAQ is generally to provide information on
@@ -144,8 +144,8 @@ const Footer = () => {
             <img
               width="100%"
               height="100%"
-              className="object-cover"
-              src="/assets/foot-img.svg"
+              className="object-cover capitalmerce-logo"
+              src="/assets/CB Shaped by Signature.png"
               alt="Logo"
             />
           </div>
